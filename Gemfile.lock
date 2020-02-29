@@ -35,7 +35,7 @@ GEM
       byebug (~> 10.0)
       pry (~> 0.10)
     public_suffix (3.0.3)
-    rake (12.0.0)
+    rake (13.0.1)
     rspec (3.8.0)
       rspec-core (~> 3.8.0)
       rspec-expectations (~> 3.8.0)
@@ -64,13 +64,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  approval-api-client-ruby!
   autotest (~> 4.4, >= 4.4.6)
   autotest-fsevent (~> 0.2, >= 0.2.12)
   autotest-growl (~> 0.2, >= 0.2.16)
   autotest-rails-pure (~> 4.1, >= 4.1.2)
-  approval-api-client-ruby!
   pry-byebug
-  rake (~> 12.0.0)
+  rake (~> 13.0.1)
   rspec (~> 3.6, >= 3.6.0)
   vcr (~> 3.0, >= 3.0.1)
   webmock (~> 1.24, >= 1.24.3)
